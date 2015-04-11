@@ -1,4 +1,4 @@
-FROM maxexcloo/nginx:latest
+FROM ointt/nginx:latest
 MAINTAINER Max Schaefer <max@excloo.com>
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E9C74FEEA2098A6E && \
 	echo "deb http://packages.dotdeb.org/ wheezy-php55 all" > /etc/apt/sources.list.d/php.list && \
